@@ -98,10 +98,6 @@ function initializeNavigation() {
                     top: offsetTop,
                     behavior: 'smooth'
                 });
-
-                // Close mobile menu
-                navMenu.classList.remove('active');
-                mobileToggle.classList.remove('active');
             }
         });
     });
