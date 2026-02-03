@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Dani Aldrin - Front-End Developer & UI/UX Designer. Explore my portfolio showcasing innovative web projects and creative solutions.">
+    <meta name="keywords" content="Dani Aldrin, Front-End Developer, UI/UX Designer, Portfolio, Web Development">
+    <meta name="author" content="Dani Aldrin">
+    <title>Dani Aldrin | Front-End Developer & UI/UX Designer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- SVG Clip Path -->
+    <svg width="0" height="0" style="position: absolute; pointer-events: none;">
+        <clipPath id="roundedHexagon" clipPathUnits="objectBoundingBox">
+            <path
+                d="M 0.55 0.03 L 0.95 0.22 Q 1 0.25 1 0.32 L 1 0.68 Q 1 0.75 0.95 0.78 L 0.55 0.97 Q 0.5 1 0.45 0.97 L 0.05 0.78 Q 0 0.75 0 0.68 L 0 0.32 Q 0 0.25 0.05 0.22 L 0.45 0.03 Q 0.5 0 0.55 0.03 Z" />
+        </clipPath>
+    </svg>
+
+    <!-- Overlay Loader -->
+    <div class="overlay first"></div>
+    <div class="overlay second"></div>
+    <div class="overlay third"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">DA</span>
+                <span class="logo-text">Dani Aldrin</span>
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Dani Aldrin</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span id="typed-text"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    Crafting beautiful, functional, and user-centric digital experiences.
+                    Passionate about turning ideas into reality through clean code and creative design.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/danialdrin" target="_blank" rel="noopener" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dani-aldrin-d-aa1068295/" target="_blank" rel="noopener"
+                        class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/LT6G4rxBJA/" target="_blank" rel="noopener" class="social-link">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="https://www.hackerrank.com/profile/danialdrin_d" target="_blank" rel="noopener"
+                        class="social-link">
+                        <i class="fab fa-hackerrank"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image" data-aos="fade-right" data-aos-delay="200">
+                <div class="home__img">
+                    <div class="home__bg"></div>
+                    <div class="home__img-inner">
+                        <img src="assets/profile.png" alt="Dani Aldrin">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Left Column: Bio -->
+                <div class="about-bio" data-aos="fade-right">
+                    <span class="bio-tag">About Me</span>
+                    <h2 class="bio-name">Dani Aldrin D</h2>
+                    <h3 class="bio-role">Computer Science Engineering Student</h3>
+
+                    <p class="bio-text">
+                        I'm a motivated and detail-oriented Computer Science Engineering student at RMK College of
+                        Engineering and Technology, driven by a strong interest in technology, design, and
+                        problem-solving. I enjoy transforming ideas into practical digital solutions and continuously
+                        improving through learning and collaboration.
+                    </p>
+                    <p class="bio-text">
+                        With hands-on experience in building responsive web applications, I focus on creating clean,
+                        user-friendly interfaces that balance functionality and aesthetics. I believe well-designed
+                        software should feel intuitive, efficient, and effortless to use.
+                    </p>
+                </div>
+
+                <!-- Right Column: Details Cards -->
+                <div class="about-cards" data-aos="fade-left">
+                    <!-- Education Card -->
+                    <div class="about-card">
+                        <div class="card-icon-box">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-content">
+                            <h4>Education</h4>
+                            <p class="card-main-text">Bachelor of Engineering – Computer Science RMK College of
+                                Engineering and Technology • 2023 – 2027</p>
+                            <p class="card-sub-text">CGPA: 8.38</p>
+                        </div>
+                    </div>
+
+                    <!-- Leadership Card -->
+                    <div class="about-card">
+                        <div class="card-icon-box">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="card-content">
+                            <h4>Leadership</h4>
+                            <p class="card-main-text">CSI Executive Member</p>
+                            <p class="card-sub-text">Event coordination, team collaboration & organizational leadership
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Focus Areas Card -->
+                    <div class="about-card">
+                        <div class="card-icon-box">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="card-content">
+                            <h4>Focus Areas</h4>
+                            <p class="card-main-text">Frontend Development • UI/UX Design</p>
+                            <p class="card-sub-text">Building responsive, modern, and user-centric web experiences</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">What I Do Best</span>
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                <p class="section-description">Technologies and tools I work with</p>
+            </div>
+
+            <div class="skills-container">
+                <!-- Technical Skills -->
+                <div class="skills-category" data-aos="fade-up">
+                    <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-progress="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">Godot</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design Skills -->
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-palette"></i> Non Technical Skills</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <h4>Figma</h4>
+                            <div class="skill-level">
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-pencil-ruler"></i>
+                            </div>
+                            <h4>UI/UX Design</h4>
+                            <div class="skill-level">
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h4>Canva</h4>
+                            <div class="skill-level">
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot"></div>
+                                <div class="level-dot"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-bezier-curve"></i>
+                            </div>
+                            <h4>Illustrator</h4>
+                            <div class="skill-level">
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-description">Some of my recent work that I'm proud of</p>
+            </div>
+
+
+
+            <div class="projects-grid">
+                <!-- Project 1: Music Player -->
+                <div class="project-card" data-category="web frontend" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="assets/projects/music.png" alt="Music Player">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://music-player-eight-eta.vercel.app/" class="project-link"
+                                    target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/danialdrin" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Audio API</span>
+                        </div>
+                        <h3>Music Player</h3>
+                        <p>A sleek and responsive web-based music player with a modern UI, offering smooth playback and
+                            custom controls.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2: Video Player -->
+                <div class="project-card" data-category="web frontend" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="assets/projects/video.png" alt="Video Player">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://video-player-ten-phi.vercel.app/" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/danialdrin" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Video API</span>
+                        </div>
+                        <h3>Video Player</h3>
+                        <p>A feature-rich video player with custom UI elements, supporting various video formats and
+                            responsive viewing.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3: Fake URL Detector -->
+                <div class="project-card" data-category="security" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="assets/projects/fackurl.png" alt="Fake URL Detector">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://fakeurldetector.vercel.app/" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/danialdrin" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Cybersecurity</span>
+                            <span class="tag">ML</span>
+                        </div>
+                        <h3>Fake URL Detector</h3>
+                        <p>An intelligent security system that identifies deceptive and malicious URLs to protect users
+                            from phishing attacks.</p>
+                    </div>
+                </div>
+
+                <!-- Project 4: StudyBuddy -->
+                <div class="project-card" data-category="education ai" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="assets/projects/studybuddy.png" alt="StudyBuddy">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://studybuddy-i8azhrersqk8z5ya4ks7lb.streamlit.app/" class="project-link"
+                                    target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/danialdrin" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">AI</span>
+                        </div>
+                        <h3>StudyBuddy</h3>
+                        <p>An AI-powered academic assistant designed to streamline learning, organize study materials,
+                            and track student progress.</p>
+                    </div>
+                </div>
+
+                <!-- Project 5: Jumpy Game -->
+                <div class="project-card" data-category="game development" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="assets/projects/jumpy.png" alt="Jumpy Game">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/danialdrin" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">Godot</span>
+                            <span class="tag">Game Dev</span>
+                        </div>
+                        <h3>Jumpy</h3>
+                        <p>A fun 2D pixel-art platformer game featuring challenging levels, coin collection mechanics,
+                            and smooth character physics.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+                <p class="section-description">Let's work together on your next project</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's talk about everything!</h3>
+                    <p>Don't like forms? Send me an email.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:danialdrin.d@gmail.com">danialdrin.d@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+91 8122904068">+91 8122904068</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Poothurai, Kanyakumari</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://github.com/danialdrin" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/dani-aldrin-d-aa1068295/" target="_blank"
+                            class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/LT6G4rxBJA/" target="_blank" class="social-link">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <a href="https://www.hackerrank.com/profile/danialdrin_d" target="_blank" class="social-link">
+                            <i class="fab fa-hackerrank"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-neon btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Dani Aldrin</h3>
+                    <p>Front-End Developer & UI/UX Designer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Dani Aldrin. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
