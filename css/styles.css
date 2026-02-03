@@ -335,8 +335,8 @@ textarea {
 }
 
 .orb-1 {
-    width: 500px;
-    height: 500px;
+    width: clamp(250px, 40vw, 500px);
+    height: clamp(250px, 40vw, 500px);
     background: var(--gradient-primary);
     top: -10%;
     right: -10%;
@@ -344,8 +344,8 @@ textarea {
 }
 
 .orb-2 {
-    width: 400px;
-    height: 400px;
+    width: clamp(200px, 30vw, 400px);
+    height: clamp(200px, 30vw, 400px);
     background: var(--gradient-secondary);
     bottom: -10%;
     left: -10%;
@@ -353,8 +353,8 @@ textarea {
 }
 
 .orb-3 {
-    width: 300px;
-    height: 300px;
+    width: clamp(150px, 20vw, 300px);
+    height: clamp(150px, 20vw, 300px);
     background: var(--gradient-accent);
     top: 50%;
     left: 50%;
@@ -552,8 +552,9 @@ textarea {
 }
 
 .home__img {
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    max-width: clamp(300px, 45vw, 500px);
+    aspect-ratio: 5 / 6;
     cursor: pointer;
     position: relative;
     z-index: 1;
@@ -568,7 +569,7 @@ textarea {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    margin-top: -30px;
+    margin-top: -5%;
 }
 
 .home__img-inner img {
@@ -577,7 +578,6 @@ textarea {
     object-fit: contain;
     transition: all 0.3s ease;
     margin-top: auto;
-
 }
 
 .home__img:hover img {
@@ -594,27 +594,26 @@ textarea {
     background: var(--gradient-primary);
     z-index: -1;
     clip-path: url(#roundedHexagon);
-    transform: scale(0.85) translateY(30px);
-    filter: drop-shadow(0 0 10px var(--first-color)) drop-shadow(0 0 50px var(--first-color));
+    transform: scale(0.85) translateY(5%);
+    filter: drop-shadow(0 0 10px var(--first-color)) drop-shadow(0 0 30px var(--first-color));
     transition: all 0.3s ease;
 }
 
 .home__img:hover .home__bg {
-    filter: drop-shadow(0 0 20px var(--first-color)) drop-shadow(0 0 80px var(--first-color));
+    filter: drop-shadow(0 0 20px var(--first-color)) drop-shadow(0 0 60px var(--first-color));
 }
 
 @media (max-width: 1024px) {
     .home__img {
-        width: 500px;
-        height: 500px;
-        margin: 0 auto;
+        max-width: clamp(280px, 60vw, 450px);
+        aspect-ratio: 1 / 1;
+        margin: 2rem auto;
     }
 }
 
 @media (max-width: 768px) {
     .home__img {
-        width: 300px;
-        height: 300px;
+        max-width: clamp(220px, 85vw, 360px);
     }
 }
 
