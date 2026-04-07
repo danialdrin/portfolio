@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Programming",
+        "icon": "code-slash-outline",
+        "skills": ["Python", "Java", "C (Basic)","C++","C#"]
+    },
+    {
+        "title": "Frontend & Design",
+        "icon": "color-palette-outline",
+        "skills": ["React.js", "Tailwind CSS", "Figma", "HTML"]
+    },
+    {
+        "title": "Core Strengths",
+        "icon": "bulb-outline",
+        "skills": ["UI/UX Design", "Problem Solving", "Logical Thinking"]
+    },
+    {
+        "title": "Soft Skills",
+        "icon": "people-outline",
+        "skills": ["Team Collaboration", "Leadership", "Communication"]
+    }
+]
+

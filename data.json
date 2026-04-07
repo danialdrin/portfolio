@@ -1,0 +1,149 @@
+{
+  "skills": {
+    "technical": [
+      {
+        "name": "HTML",
+        "level": 95
+      },
+      {
+        "name": "CSS",
+        "level": 90
+      },
+      {
+        "name": "JavaScript",
+        "level": 85
+      },
+      {
+        "name": "Python",
+        "level": 88
+      },
+      {
+        "name": "Git & GitHub",
+        "level": 82
+      },
+      {
+        "name": "Godot",
+        "level": 70
+      },
+      {
+        "name": "React",
+        "level": 80
+      },
+      {
+        "name": "MySQL",
+        "level": 75
+      }
+    ],
+    "nonTechnical": [
+      {
+        "name": "Figma",
+        "icon": "fab fa-figma",
+        "level": 4
+      },
+      {
+        "name": "UI/UX Design",
+        "icon": "fas fa-pencil-ruler",
+        "level": 4
+      },
+      {
+        "name": "Canva",
+        "icon": "fas fa-palette",
+        "level": 3
+      },
+      {
+        "name": "Illustrator",
+        "icon": "fas fa-bezier-curve",
+        "level": 5
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Music Player",
+      "category": "web frontend",
+      "image": "assets/projects/music.png",
+      "links": {
+        "external": "https://music-player-eight-eta.vercel.app/",
+        "github": "https://github.com/danialdrin"
+      },
+      "tags": ["HTML/CSS", "JavaScript", "Audio API"],
+      "description": "A sleek and responsive web-based music player with a modern UI, offering smooth playback and custom controls."
+    },
+    {
+      "title": "Video Player",
+      "category": "web frontend",
+      "image": "assets/projects/video.png",
+      "links": {
+        "external": "https://video-player-ten-phi.vercel.app/",
+        "github": "https://github.com/danialdrin"
+      },
+      "tags": ["HTML/CSS", "JavaScript", "Video API"],
+      "description": "A feature-rich video player with custom UI elements, supporting various video formats and responsive viewing."
+    },
+    {
+      "title": "Fake URL Detector",
+      "category": "security",
+      "image": "assets/projects/fackurl.png",
+      "links": {
+        "external": "https://fakeurldetector.vercel.app/",
+        "github": "https://github.com/danialdrin"
+      },
+      "tags": ["Python", "Cybersecurity", "ML"],
+      "description": "An intelligent security system that identifies deceptive and malicious URLs to protect users from phishing attacks."
+    },
+    {
+      "title": "StudyBuddy",
+      "category": "education ai",
+      "image": "assets/projects/studybuddy.png",
+      "links": {
+        "external": "https://studybuddy-i8azhrersqk8z5ya4ks7lb.streamlit.app/",
+        "github": "https://github.com/danialdrin"
+      },
+      "tags": ["Python", "Streamlit", "AI"],
+      "description": "An AI-powered academic assistant designed to streamline learning, organize study materials, and track student progress."
+    },
+    {
+      "title": "Jumpy Game",
+      "category": "game development",
+      "image": "assets/projects/jumpy.png",
+      "links": {
+        "github": "https://github.com/danialdrin"
+      },
+      "tags": ["C#", "Godot", "Game Dev"],
+      "description": "A fun 2D pixel-art platformer game featuring challenging levels, coin collection mechanics, and smooth character physics."
+    },
+    {
+      "title": "Hire Sync",
+      "category": "web frontend fullstack",
+      "image": "assets/projects/hiresync.png",
+      "links": {
+        "github": "https://github.com/danialdrin"
+      },
+      "tags": ["Python", "Flask", "MySQL", "React"],
+      "description": "A real-time campus placement management system with secure role-based dashboards and dynamic analytics."
+    }
+  ],
+  "experience": [
+    {
+      "role": "UI UX Intern",
+      "company": "Upto Skills",
+      "duration": "Dec 2025 - Mar 2026",
+      "location": "Virtual",
+      "description": "Led the UI/UX team for Flowbit, an all-in-one enterprise platform, and was promoted to Team Captain for leadership excellence. Applied design thinking and user-centric principles to build intuitive interfaces and streamline workflows."
+    },
+    {
+      "role": "AI & ML Intern",
+      "company": "Edunet Foundation (IBM)",
+      "duration": "Dec 2025 - Jan 2026",
+      "location": "Virtual",
+      "description": "Developed an AI-powered study assistant with syllabus-based explanations, summaries, and adaptive quizzes. Implemented intent routing, PDF-grounded responses, real-time quiz scoring, and secure API/session management."
+    },
+    {
+      "role": "Frontend Developer Intern",
+      "company": "CodeAlpha",
+      "duration": "May 2024 - Jun 2024",
+      "location": "Virtual",
+      "description": "Developed responsive front-end websites by converting UI designs into functional web pages. Implemented dynamic UI interactions and ensured cross-device compatibility. Completed 3 projects within the internship timeline."
+    }
+  ]
+}

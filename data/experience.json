@@ -1,0 +1,20 @@
+[
+  {
+    "company": "UpTo Skills",
+    "role": "UI/UX Intern",
+    "duration": "December 2025 - Present",
+    "description": "Led the organization and management of technical and non-technical college events, applying design thinking and leadership to improve participant engagement and operational workflows."
+  },
+  {
+    "company": "Edunet Foundation (IBM)",
+    "role": "AI & ML Intern",
+    "duration": "Dec 2025 to Jan 2026",
+    "description": "Successfully engineered a machine learning solution for a targeted industry problem statement. Performed end-to-end data processing, exploratory data analysis (EDA), and model optimization using Python and IBM-aligned methodologies to achieve high predictive accuracy."
+  },
+  {
+    "company": "CodeAlpha",
+    "role": "Front-End Developer",
+    "duration": "May 2025",
+    "description": "Engineered responsive web applications including a Photo Gallery, Music Player, and Calculator using HTML, CSS, and JavaScript, prioritizing clean UI and cross-device usability."
+  }
+]
