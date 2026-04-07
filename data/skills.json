@@ -1,23 +1,42 @@
 [
     {
-        "title": "Programming",
-        "icon": "code-slash-outline",
-        "skills": ["Python", "Java", "C (Basic)","C++","C#"]
+      "title": "Programming",
+      "icon": "code-slash-outline",
+      "skills": ["Python", "Java", "C (Basic)", "C++", "C#", "JavaScript", "TypeScript"]
     },
     {
-        "title": "Frontend & Design",
-        "icon": "color-palette-outline",
-        "skills": ["React.js", "Tailwind CSS", "Figma", "HTML"]
+      "title": "Frontend & Design",
+      "icon": "color-palette-outline",
+      "skills": ["React.js", "Tailwind CSS", "Figma", "HTML5", "CSS3", "Responsive Design", "DOM Manipulation"]
     },
     {
-        "title": "Core Strengths",
-        "icon": "bulb-outline",
-        "skills": ["UI/UX Design", "Problem Solving", "Logical Thinking"]
+      "title": "Game Development",
+      "icon": "game-controller-outline",
+      "skills": ["Godot", "Unity"]
     },
     {
-        "title": "Soft Skills",
-        "icon": "people-outline",
-        "skills": ["Team Collaboration", "Leadership", "Communication"]
+      "title": "Databases",
+      "icon": "server-outline",
+      "skills": ["MySQL", "Pinecone (Vector Database)"]
+    },
+    {
+      "title": "Tools",
+      "icon": "construct-outline",
+      "skills": ["Git", "GitHub", "Figma", "Canva", "Vercel"]
+    },
+    {
+      "title": "Automation",
+      "icon": "settings-outline",
+      "skills": ["n8n"]
+    },
+    {
+      "title": "Core Strengths",
+      "icon": "bulb-outline",
+      "skills": ["UI/UX Design", "Problem Solving", "Logical Thinking"]
+    },
+    {
+      "title": "Soft Skills",
+      "icon": "people-outline",
+      "skills": ["Team Collaboration", "Leadership", "Communication"]
     }
-]
-
+  ]

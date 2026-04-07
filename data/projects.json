@@ -2,7 +2,7 @@
   {
     "title": "Picture Gallery",
     "description": "A responsive image gallery with smooth transitions and interactive viewing experience.",
-    "image": "https://github.com/danialdrin/portfolio-data/blob/main/images/images/projects/picturegallery.png",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/picturegallery.png",
     "techStack": ["HTML", "CSS", "JavaScript"],
     "githubLink": "https://github.com/danialdrin/Picture-Gallery",
     "demoLink": "https://picture-gallery-two.vercel.app/"
@@ -10,7 +10,7 @@
   {
     "title": "Custom Video Player",
     "description": "A modern web-based video player with custom controls and clean UI.",
-    "image": "https://github.com/danialdrin/portfolio-data/blob/main/images/images/projects/videoplayer.png",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/videoplayer.png",
     "techStack": ["HTML", "CSS", "JavaScript"],
     "githubLink": "https://github.com/danialdrin/Video-Player",
     "demoLink": "https://video-player-ten-phi.vercel.app/"
@@ -18,7 +18,7 @@
   {
     "title": "Encryption Application",
     "description": "A client-side encryption and decryption tool demonstrating secure data handling concepts.",
-    "image": "https://github.com/danialdrin/portfolio-data/blob/main/images/images/projects/encryptionapp.png",
+    "image": "encryptionapp.png",
     "techStack": ["HTML", "CSS", "JavaScript"],
     "githubLink": "https://github.com/danialdrin/Encryption-Application",
     "demoLink": "https://encryption-application-five.vercel.app/"
@@ -26,17 +26,17 @@
   {
     "title": "Fake URL Detector",
     "description": "A web application that analyzes URLs to help identify potentially malicious or fake links.",
-    "image": "https://github.com/danialdrin/portfolio-data/blob/main/images/images/projects/fakeurldetector.png",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/fakeurldetector.png",
     "techStack": ["HTML", "CSS", "JavaScript"],
     "githubLink": "https://github.com/danialdrin/fake-website-detector-main",
     "demoLink": "https://fakeurldetector.vercel.app/"
   },
   {
-  "title": "Music Player",
-  "description": "A modern web-based music player with intuitive controls, smooth playback, and a clean user interface for an enhanced listening experience.",
-  "image": "https://github.com/danialdrin/portfolio-data/blob/main/images/images/projects/musicplayer.png",
-  "techStack": ["HTML", "CSS", "JavaScript"],
-  "githubLink": "https://github.com/danialdrin/Music-Player",
-  "demoLink": "https://music-player-eight-eta.vercel.app/"
-}
+    "title": "Music Player",
+    "description": "A modern web-based music player with intuitive controls, smooth playback, and a clean user interface for an enhanced listening experience.",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/musicplayer.png",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "githubLink": "https://github.com/danialdrin/Music-Player",
+    "demoLink": "https://music-player-eight-eta.vercel.app/"
+  }
 ]
