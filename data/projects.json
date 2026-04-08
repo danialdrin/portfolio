@@ -10,7 +10,7 @@
       "Google Gemini API",
       "Bytez API"
     ],
-    "githubLink": "https://github.com/danialdrin/AI-Study-Buddy",
+    "githubLink": "https://github.com/danialdrin/StudyBuddy",
     "demoLink": "https://studybuddy-i8azhrersqk8z5ya4ks7lb.streamlit.app/"
   },
   {
@@ -27,7 +27,7 @@
       "Pandas",
       "OpenPyXL"
     ],
-    "githubLink": "https://github.com/danialdrin/HireSync",
+    "githubLink": "https://github.com/danialdrin/placement-system",
     "demoLink": null
   },
   {
@@ -122,7 +122,7 @@
     "description": "A high-performance web-based stopwatch featuring lap tracking, real-time comparisons, SVG progress rings, and glassmorphism UI. Includes keyboard shortcuts, audio feedback using Web Audio API, and optimized animations for a smooth and responsive user experience.",
     "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/stopwatch.png",
     "techStack": ["HTML", "CSS", "JavaScript", "Web Audio API"],
-    "githubLink": "https://stopwatch-timer-eight.vercel.app/",
+    "githubLink": "https://github.com/danialdrin/Stopwatch",
     "demoLink": "https://stopwatch-timer-eight.vercel.app/"
   }
 ]
