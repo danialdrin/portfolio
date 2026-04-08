@@ -1,5 +1,107 @@
 [
   {
+    "title": "AI Study Buddy",
+    "description": "An AI-powered document assistant built with Streamlit that enables users to upload PDFs and interact with them using LLMs. Features include summarization, concept explanation, quiz generation, chat history, and dual provider support with Google Gemini and Bytez APIs.",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/studybuddy.png",
+    "techStack": [
+      "Python",
+      "Streamlit",
+      "LLM",
+      "Google Gemini API",
+      "Bytez API"
+    ],
+    "githubLink": "https://github.com/danialdrin/AI-Study-Buddy",
+    "demoLink": "https://studybuddy-i8azhrersqk8z5ya4ks7lb.streamlit.app/"
+  },
+  {
+    "title": "HireSync - Campus Placement Management System",
+    "description": "A full-stack campus placement platform with real-time dashboards, role-based authentication, Excel bulk import, and interview tracking pipeline. Features a modern glassmorphism UI and optimized backend for managing students, companies, and job applications efficiently.",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/hiresync.png",
+    "techStack": [
+      "Flask",
+      "Python",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Pandas",
+      "OpenPyXL"
+    ],
+    "githubLink": "https://github.com/danialdrin/HireSync",
+    "demoLink": null
+  },
+  {
+    "title": "FinTech Dashboard",
+    "description": "A premium fintech dashboard built with React featuring Material 3-inspired design, glassmorphism UI, and advanced data visualization. Includes real-time portfolio tracking, transaction ledger, role-based access control, Redux-powered state management, and smooth animations using Framer Motion.",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/fintech.jpeg",
+    "techStack": [
+      "React.js",
+      "Redux Toolkit",
+      "CSS",
+      "Framer Motion",
+      "Recharts",
+      "JavaScript",
+      "Vite"
+    ],
+    "githubLink": "https://github.com/danialdrin/FinTech-Dashboard",
+    "demoLink": "https://fin-tech-dashboard-bay.vercel.app/"
+  },
+  {
+    "title": "Recipes Book",
+    "description": "A full-featured recipe web application with search, sorting, pagination, and detailed recipe views including ingredients, instructions, and nutrition information.",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/recipes-book.jpeg",
+    "techStack": ["React.js", "CSS", "JavaScript"],
+    "githubLink": "https://github.com/danialdrin/Recipes-Book",
+    "demoLink": null
+  },
+  {
+    "title": "Math with Gesture",
+    "description": "A real-time AI-powered math solver that uses hand gesture tracking to draw equations in air and solve them using Google Gemini. Built with OpenCV and cvzone for hand detection, and Streamlit for interactive visualization.",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/mathwithgesture.jpg",
+    "techStack": [
+      "Python",
+      "OpenCV",
+      "cvzone",
+      "Streamlit",
+      "Google Gemini API",
+      "NumPy"
+    ],
+    "githubLink": "https://github.com/danialdrin/Math-With-Gesture",
+    "demoLink": null
+  },
+  {
+    "title": "Fake URL Detector",
+    "description": "A web application that analyzes URLs to help identify potentially malicious or fake links.",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/fakeurldetector.png",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "githubLink": "https://github.com/danialdrin/fake-website-detector-main",
+    "demoLink": "https://fakeurldetector.vercel.app/"
+  },
+  {
+    "title": "Encryption Application",
+    "description": "A client-side encryption and decryption tool demonstrating secure data handling concepts.",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/encryptionapp.png",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "githubLink": "https://github.com/danialdrin/Encryption-Application",
+    "demoLink": "https://encryption-application-five.vercel.app/"
+  },
+  {
+    "title": "RMKCET College Website",
+    "description": "A modern, responsive college website featuring a dynamic hero slider, structured navigation with dropdowns, animated sections, and real-world institutional content. Includes UI components like news ticker, department highlights, and interactive chatbot UI.",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/college-rework.png",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "githubLink": "https://github.com/danialdrin/college_website_rework",
+    "demoLink": "https://college-website-rework.vercel.app/"
+  },
+  {
+    "title": "Music Player",
+    "description": "A modern web-based music player with intuitive controls, smooth playback, and a clean user interface for an enhanced listening experience.",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/musicplayer.png",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "githubLink": "https://github.com/danialdrin/Music-Player",
+    "demoLink": "https://music-player-eight-eta.vercel.app/"
+  },
+  {
     "title": "Picture Gallery",
     "description": "A responsive image gallery with smooth transitions and interactive viewing experience.",
     "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/picturegallery.png",
@@ -16,27 +118,11 @@
     "demoLink": "https://video-player-ten-phi.vercel.app/"
   },
   {
-    "title": "Encryption Application",
-    "description": "A client-side encryption and decryption tool demonstrating secure data handling concepts.",
-    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/encryptionapp.png",
-    "techStack": ["HTML", "CSS", "JavaScript"],
-    "githubLink": "https://github.com/danialdrin/Encryption-Application",
-    "demoLink": "https://encryption-application-five.vercel.app/"
-  },
-  {
-    "title": "Fake URL Detector",
-    "description": "A web application that analyzes URLs to help identify potentially malicious or fake links.",
-    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/fakeurldetector.png",
-    "techStack": ["HTML", "CSS", "JavaScript"],
-    "githubLink": "https://github.com/danialdrin/fake-website-detector-main",
-    "demoLink": "https://fakeurldetector.vercel.app/"
-  },
-  {
-    "title": "Music Player",
-    "description": "A modern web-based music player with intuitive controls, smooth playback, and a clean user interface for an enhanced listening experience.",
-    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/musicplayer.png",
-    "techStack": ["HTML", "CSS", "JavaScript"],
-    "githubLink": "https://github.com/danialdrin/Music-Player",
-    "demoLink": "https://music-player-eight-eta.vercel.app/"
+    "title": "Aesthetic Stopwatch Timer",
+    "description": "A high-performance web-based stopwatch featuring lap tracking, real-time comparisons, SVG progress rings, and glassmorphism UI. Includes keyboard shortcuts, audio feedback using Web Audio API, and optimized animations for a smooth and responsive user experience.",
+    "image": "https://raw.githubusercontent.com/danialdrin/portfolio/main/assets/projects/stopwatch.png",
+    "techStack": ["HTML", "CSS", "JavaScript", "Web Audio API"],
+    "githubLink": "https://stopwatch-timer-eight.vercel.app/",
+    "demoLink": "https://stopwatch-timer-eight.vercel.app/"
   }
 ]
