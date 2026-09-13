@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap Location
-Sitemap: https://danialdrin.github.io/portfolio/sitemap.xml
+Sitemap: https://danialdrin.me/sitemap.xml
