@@ -9,7 +9,7 @@
 ## 1. Completed by Agent
 
 ### A. SEO Metadata & Indexing Architecture (`index.html`)
-- **Canonical URL**: Implemented `<link rel="canonical" href="https://danialdrin.github.io/portfolio/" />`.
+- **Canonical URL**: Implemented `<link rel="canonical" href="https://danialdrin.me/" />`.
 - **Open Graph Metadata**: Added full `og:type`, `og:url`, `og:title`, `og:description`, `og:image`, `og:site_name`, and `og:locale` tags.
 - **Twitter / X Cards**: Added `twitter:card` (summary_large_image), `twitter:url`, `twitter:title`, `twitter:description`, and `twitter:image` metadata.
 - **JSON-LD Structured Data**: Embedded Google-compliant Schema.org scripts with `@graph` containing `Person` (Dani Aldrin), `WebSite`, and `ProfilePage` schema objects.
@@ -59,8 +59,8 @@
 ## 2. Requires My Manual Action
 
 1. **Google Search Console Registration**:
-   - Add your portfolio domain (`https://danialdrin.github.io/portfolio/` or your custom domain) to [Google Search Console](https://search.google.com/search-console).
-   - Submit the sitemap URL: `https://danialdrin.github.io/portfolio/sitemap.xml`.
+   - Add your portfolio domain (`https://danialdrin.me/`) to [Google Search Console](https://search.google.com/search-console).
+   - Submit the sitemap URL: `https://danialdrin.me/sitemap.xml`.
 2. **Social Media Link Updates**:
    - Update your GitHub profile README (`danialdrin/danialdrin`) and LinkedIn profile website field with your production portfolio URL.
 3. **Physical Device Testing**:
@@ -71,8 +71,7 @@
 ## 3. Needs My Decision
 
 - **Custom Domain vs. GitHub Pages Domain**:
-  - The current canonical tags, Open Graph URLs, and sitemap reference `https://danialdrin.github.io/portfolio/`.
-  - If you bind a custom domain (such as `https://danialdrin.dev` or `https://danialdrin.com`), simply replace `https://danialdrin.github.io/portfolio/` in `index.html` and `public/sitemap.xml`.
+  - The canonical tags, Open Graph URLs, and sitemap reference `https://danialdrin.me/`.
 
 ---
 
