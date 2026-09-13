@@ -1,42 +1,42 @@
 [
-    {
-      "title": "Programming",
-      "icon": "code-slash-outline",
-      "skills": ["Python", "Java", "C (Basic)", "C++", "C#", "JavaScript", "TypeScript"]
-    },
-    {
-      "title": "Frontend & Design",
-      "icon": "color-palette-outline",
-      "skills": ["React.js", "Tailwind CSS", "Figma", "HTML5", "CSS3", "Responsive Design", "DOM Manipulation"]
-    },
-    {
-      "title": "Game Development",
-      "icon": "game-controller-outline",
-      "skills": ["Godot", "Unity"]
-    },
-    {
-      "title": "Databases",
-      "icon": "server-outline",
-      "skills": ["MySQL", "Pinecone (Vector Database)"]
-    },
-    {
-      "title": "Tools",
-      "icon": "construct-outline",
-      "skills": ["Git", "GitHub", "Figma", "Canva", "Vercel"]
-    },
-    {
-      "title": "Automation",
-      "icon": "settings-outline",
-      "skills": ["n8n"]
-    },
-    {
-      "title": "Core Strengths",
-      "icon": "bulb-outline",
-      "skills": ["UI/UX Design", "Problem Solving", "Logical Thinking"]
-    },
-    {
-      "title": "Soft Skills",
-      "icon": "people-outline",
-      "skills": ["Team Collaboration", "Leadership", "Communication"]
-    }
-  ]
+  {
+    "title": "Programming Languages",
+    "icon": "code-slash-outline",
+    "skills": ["Python", "JavaScript", "TypeScript", "SQL"]
+  },
+  {
+    "title": "Frontend Development",
+    "icon": "color-palette-outline",
+    "skills": ["React.js", "Angular.js", "HTML", "CSS"]
+  },
+  {
+    "title": "Backend & API Tools",
+    "icon": "server-outline",
+    "skills": ["Node.js", "Express.js", "Postman"]
+  },
+  {
+    "title": "Databases",
+    "icon": "cube-outline",
+    "skills": ["PostgreSQL", "MySQL", "MongoDB", "Pinecone", "pgvector", "Redis"]
+  },
+  {
+    "title": "Game Development",
+    "icon": "game-controller-outline",
+    "skills": ["Godot", "Unity"]
+  },
+  {
+    "title": "Deployment & Automation",
+    "icon": "cloud-upload-outline",
+    "skills": ["Git", "GitHub", "Vercel", "Docker", "n8n"]
+  },
+  {
+    "title": "Design Tools",
+    "icon": "construct-outline",
+    "skills": ["Figma", "Canva", "Stitch"]
+  },
+  {
+    "title": "Core Strengths & Soft Skills",
+    "icon": "people-outline",
+    "skills": ["UI/UX Design", "Problem Solving", "Leadership", "Team Collaboration", "Communication"]
+  }
+]

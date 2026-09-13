@@ -1,20 +1,23 @@
 [
   {
     "company": "UpTo Skills",
-    "role": "UI/UX Intern",
-    "duration": "December 2025 - Present",
-    "description": "Led the organization and management of technical and non-technical college events, applying design thinking and leadership to improve participant engagement and operational workflows."
+    "role": "UI/UX Intern (Team Captain)",
+    "duration": "Dec 2025 – Mar 2026",
+    "techStack": ["Figma", "Stitch", "Wireframing", "Prototyping", "UI/UX Design"],
+    "description": "Led UI/UX design for Flowbit, creating user flows, wireframes, and interactive prototypes using Figma and Stitch. Served as Team Captain, coordinating the UI/UX team, refining workflows, and ensuring consistent progress across design iterations."
   },
   {
     "company": "Edunet Foundation (IBM)",
     "role": "AI & ML Intern",
-    "duration": "Dec 2025 to Jan 2026",
-    "description": "Successfully engineered a machine learning solution for a targeted industry problem statement. Performed end-to-end data processing, exploratory data analysis (EDA), and model optimization using Python and IBM-aligned methodologies to achieve high predictive accuracy."
+    "duration": "Dec 2025 – Jan 2026",
+    "techStack": ["Python", "Streamlit", "Google Gemini API", "Bytez API", "PDF Processing", "API Integration"],
+    "description": "Developed AI Study Buddy, a PDF-based AI learning assistant with interactive chat, study modes, and Explainer, Summarizer, and Quizzer features. Integrated Google Gemini and Bytez APIs with model selection, API key management, chat history, and session management."
   },
   {
     "company": "CodeAlpha",
-    "role": "Front-End Developer",
-    "duration": "May 2025",
+    "role": "Front-End Developer Intern",
+    "duration": "May 2024",
+    "techStack": ["HTML5", "CSS3", "JavaScript"],
     "description": "Engineered responsive web applications including a Photo Gallery, Music Player, and Calculator using HTML, CSS, and JavaScript, prioritizing clean UI and cross-device usability."
   }
 ]

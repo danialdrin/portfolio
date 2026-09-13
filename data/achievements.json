@@ -1,38 +1,32 @@
 [
-    {
-        "title": "School People Leader",
-        "year": "2023",
-        "description": "Demonstrated leadership and organizational skills by leading and coordinating student activities."
-    },
-    {
-        "title": "Top 10 Rank in Public Board Examination",
-        "year": "2023",
-        "description": "Secured 9th place in the public board examinations, reflecting strong academic performance and consistency."
-    },
-    {
-        "title": "Front-End Development Internship Completion",
-        "year": "2024",
-        "description": "Successfully completed a front-end development internship at CodeAlpha, building responsive web applications and earning certification for performance and contribution."
-    },
-    {
-        "title": "CSI Executive Member",
-        "year": "2025",
-        "description": "Actively organized and managed a technical event named TechDays, contributing to planning, coordination, and execution of college-level technical activities."
-    },
-    {
-        "title": "NPTEL Top Score Achiever",
-        "year": "2025",
-        "description": "Secured a top score of 86% in the NPTEL examination, demonstrating strong conceptual understanding and academic excellence."
-    },
-    {
-        "title": "Smart India Hackathon Internal Shortlist",
-        "year": "2024",
-        "description": "Shortlisted during the internal college-level Smart India Hackathon selection for proposing innovative and problem-solving driven technical solutions."
-    },
-    {
-        "title": "Ethical Hacking Essentials (EHE) – EC-Council",
-        "year": "2024",
-        "description": "Successfully completed the EC-Council Ethical Hacking Essentials (EHE) domain-based certification, gaining foundational knowledge in cybersecurity, ethical hacking concepts, threat analysis, vulnerabilities, network security, and cyber attack methodologies."
-    }
+  {
+    "title": "Promoted to Team Captain – UI/UX Internship",
+    "year": "2026",
+    "description": "Recognized for leadership and coordination at UpTo Skills, leading the UI/UX team, refining design workflows, and driving Flowbit prototype iterations."
+  },
+  {
+    "title": "Ranked 9th in Higher Secondary Board Examination",
+    "year": "2023",
+    "description": "Secured 9th rank among 300+ students in Higher Secondary Board Examinations, demonstrating academic excellence and dedication."
+  },
+  {
+    "title": "Smart India Hackathon Shortlist",
+    "year": "2024",
+    "description": "Shortlisted in internal hackathon selection for Smart India Hackathon for proposing innovative and problem-solving driven technical solutions."
+  },
+  {
+    "title": "NPTEL Top Score Achiever (86%)",
+    "year": "2025",
+    "description": "Secured a top score of 86% in the NPTEL examination, demonstrating strong conceptual understanding and subject mastery."
+  },
+  {
+    "title": "CSI Executive Member & Event Coordinator",
+    "year": "2025",
+    "description": "Actively organized and managed TechDays and college technical events as an executive member of the Computer Society of India (CSI)."
+  },
+  {
+    "title": "Ethical Hacking Essentials (EHE) – EC-Council",
+    "year": "2024",
+    "description": "Completed the EC-Council Ethical Hacking Essentials (EHE) certification covering cybersecurity fundamentals, network security, and vulnerability assessment."
+  }
 ]
-
