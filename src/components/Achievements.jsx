@@ -10,7 +10,7 @@ function AchievementCard({ ach }) {
       borderRadius="var(--radius-md)"
       borderColor="var(--border-subtle)"
       glareColor="#ffffff"
-      glareOpacity={0.3}
+      glareOpacity={0}
       glareAngle={-30}
       glareSize={300}
       transitionDuration={800}

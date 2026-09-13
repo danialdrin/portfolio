@@ -4,7 +4,7 @@
     "title": "Digital Skill Passport",
     "tagline": "Knowledge Graph & Competency Evaluation Platform",
     "description": "An AI platform that analyzes YouTube videos and user-uploaded learning materials to extract key concepts, prerequisites, and learning outcomes while reducing YouTube Data API quota by 45%. Features a two-stage analysis pipeline (medium resource evaluation + strong deep knowledge extraction) that cuts LLM costs by 50%, an AI Programming Assessment Assistant, and a dynamic Digital Skill Passport tracking verified skills and evidence.",
-    "image": "assets/projects/skillPassport.png",
+    "image": "assets/projects/skillPassport.webp",
     "category": "case-study",
     "featured": true,
     "techStack": [
@@ -25,7 +25,7 @@
     "title": "AI Study Buddy",
     "tagline": "PDF-Based AI Learning Assistant",
     "description": "A PDF-based AI learning assistant built during IBM/Edunet internship featuring interactive chat, study modes, and Explainer, Summarizer, and Quizzer features. Integrates Google Gemini and Bytez APIs with model selection, API key management, chat history, and session management.",
-    "image": "assets/projects/studybuddy.png",
+    "image": "assets/projects/studybuddy.webp",
     "category": "case-study",
     "featured": true,
     "techStack": [
@@ -43,7 +43,7 @@
     "title": "InternArea",
     "tagline": "Full-Stack Internship & Job Portal",
     "description": "A comprehensive internship platform featuring role-based portals for students and administrators, automated application tracking, listing management, community feed, and dual SQL/Local data strategy.",
-    "image": "assets/projects/internarea.png",
+    "image": "assets/projects/internarea.webp",
     "category": "case-study",
     "featured": true,
     "techStack": [
@@ -62,7 +62,7 @@
     "title": "HireSync",
     "tagline": "Campus Placement Management System",
     "description": "A full-stack campus placement platform with real-time dashboards, role-based authentication, Excel bulk import, and interview tracking pipeline. Features a modern UI and optimized backend for managing students, companies, and job applications efficiently.",
-    "image": "assets/projects/hiresync.png",
+    "image": "assets/projects/hiresync.webp",
     "category": "case-study",
     "featured": true,
     "techStack": [
@@ -82,7 +82,7 @@
     "title": "FinTech Dashboard",
     "tagline": "Material 3 Inspired Wealth & Ledger System",
     "description": "A premium fintech dashboard built with React featuring Material 3-inspired design and advanced data visualization. Includes real-time portfolio tracking, transaction ledger, role-based access control, Redux-powered state management, and smooth animations.",
-    "image": "assets/projects/fintech.jpeg",
+    "image": "assets/projects/fintech.webp",
     "category": "case-study",
     "featured": true,
     "techStack": [
@@ -101,7 +101,7 @@
     "title": "Recipes Book",
     "tagline": "Culinary Discovery & Nutritional Guide",
     "description": "A full-featured recipe web application with search, sorting, pagination, and detailed recipe views including ingredients, step-by-step instructions, and nutrition information.",
-    "image": "assets/projects/recipes-book.jpeg",
+    "image": "assets/projects/recipes-book.webp",
     "category": "case-study",
     "featured": true,
     "techStack": [
@@ -118,7 +118,7 @@
     "title": "Math with Gesture",
     "tagline": "Air-Gesture Equation Solver using Gemini AI",
     "description": "A real-time AI-powered math solver that uses hand gesture tracking to draw equations in air and solve them using Google Gemini. Built with OpenCV and cvzone for hand detection, and Streamlit for interactive visualization.",
-    "image": "assets/projects/mathwithgesture.jpg",
+    "image": "assets/projects/mathwithgesture.webp",
     "category": "case-study",
     "featured": true,
     "techStack": [
@@ -136,7 +136,7 @@
     "title": "RMKCET College Website",
     "tagline": "Institutional Web Portal & Chatbot UI",
     "description": "A modern, responsive college website featuring a dynamic hero slider, structured navigation with dropdowns, animated sections, and real-world institutional content. Includes news ticker, department highlights, and interactive chatbot UI.",
-    "image": "assets/projects/college-rework.png",
+    "image": "assets/projects/college-rework.webp",
     "category": "case-study",
     "featured": true,
     "techStack": [
@@ -152,7 +152,7 @@
     "title": "Aesthetic Stopwatch Timer",
     "tagline": "Web Audio & SVG Progress Timer",
     "description": "A high-performance web-based stopwatch featuring lap tracking, real-time comparisons, SVG progress rings, and keyboard shortcuts. Includes audio feedback using Web Audio API and smooth responsive animations.",
-    "image": "assets/projects/stopwatch.png",
+    "image": "assets/projects/stopwatch.webp",
     "category": "experiment",
     "featured": false,
     "techStack": [
@@ -169,7 +169,7 @@
     "title": "Music Player",
     "tagline": "Web Audio Playback Interface",
     "description": "A modern web-based music player with intuitive controls, visual equalizer effects, smooth audio playback, and a clean interface for an enhanced listening experience.",
-    "image": "assets/projects/musicplayer.png",
+    "image": "assets/projects/musicplayer.webp",
     "category": "experiment",
     "featured": false,
     "techStack": [
@@ -185,7 +185,7 @@
     "title": "Custom Video Player",
     "tagline": "Custom HTML5 Media Controls",
     "description": "A modern web-based video player with custom UI controls, frame-accurate seeking, volume scaling, and clean responsive overlay controls.",
-    "image": "assets/projects/videoplayer.png",
+    "image": "assets/projects/videoplayer.webp",
     "category": "experiment",
     "featured": false,
     "techStack": [
@@ -201,7 +201,7 @@
     "title": "Picture Gallery",
     "tagline": "Interactive Masonry Gallery",
     "description": "A responsive image gallery with smooth lightbox view, category filtering, and interactive transitions for high-resolution visual collections.",
-    "image": "assets/projects/picturegallery.png",
+    "image": "assets/projects/picturegallery.webp",
     "category": "experiment",
     "featured": false,
     "techStack": [
@@ -217,7 +217,7 @@
     "title": "Fake URL Detector",
     "tagline": "Phishing & Security Analysis Tool",
     "description": "A web application that analyzes URLs to detect malicious patterns, spoofed domain heuristics, and security risks to protect users from phishing.",
-    "image": "assets/projects/fakeurldetector.png",
+    "image": "assets/projects/fakeurldetector.webp",
     "category": "experiment",
     "featured": false,
     "techStack": [
@@ -233,7 +233,7 @@
     "title": "Encryption Application",
     "tagline": "Client-Side Cipher Utility",
     "description": "A client-side encryption and decryption tool demonstrating AES/DES cipher handling, key generation, and secure payload concepts.",
-    "image": "assets/projects/encryptionapp.png",
+    "image": "assets/projects/encryptionapp.webp",
     "category": "experiment",
     "featured": false,
     "techStack": [

@@ -9,6 +9,7 @@ import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import GradientWaves from './components/GradientWaves';
+import OverlayLoader from './components/OverlayLoader';
 
 export default function App() {
   const [projects, setProjects] = useState([]);
@@ -41,24 +42,11 @@ export default function App() {
     loadData();
   }, []);
 
-  if (loading) {
-    return (
-      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#0a0b0d', color: '#f59e0b', fontFamily: 'Outfit, sans-serif' }}>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
-          <div style={{ width: '40px', height: '40px', border: '3px solid rgba(245, 158, 11, 0.2)', borderTopColor: '#f59e0b', borderRadius: '50%', animation: 'spin 1s linear infinite' }}></div>
-          <span style={{ fontSize: '1.1rem', fontWeight: '600' }}>Loading Dani Aldrin's Portfolio...</span>
-        </div>
-        <style>{`
-          @keyframes spin {
-            to { transform: rotate(360deg); }
-          }
-        `}</style>
-      </div>
-    );
-  }
-
   return (
     <div className="portfolio-app" style={{ position: 'relative', minHeight: '100vh', backgroundColor: 'var(--bg-canvas)' }}>
+      {/* Staggered Overlay Curtain Loader */}
+      <OverlayLoader />
+
       {/* Global Fixed Ambient Animated GradientWaves Background carried to all sections */}
       <div style={{ position: 'fixed', inset: 0, width: '100vw', height: '100vh', pointerEvents: 'none', zIndex: 0, opacity: 0.45 }}>
         <GradientWaves

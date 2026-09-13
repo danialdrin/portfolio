@@ -57,9 +57,12 @@ export default function Hero() {
           {/* LEFT SIDE: Direct Profile Image standing from section bottom */}
           <div className="hero-image-wrapper">
             <img
-              src="assets/profile.png"
+              src="assets/profile.webp"
               alt="Dani Aldrin - Developer & Designer Profile"
               className="hero-profile-img"
+              width="450"
+              height="550"
+              fetchPriority="high"
             />
           </div>
 

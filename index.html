@@ -3,27 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
     <meta
       name="description"
-      content="Dani Aldrin - UI/UX Designer & Frontend Developer. Building human, modern, and creative web applications."
+      content="Dani Aldrin — UI/UX Designer & Frontend Developer. CS Engineering student specializing in user-focused web apps, AI tools, React, and Python."
     />
     <meta
       name="keywords"
-      content="Dani Aldrin, UI/UX Designer, Frontend Developer, Web Development, Portfolio, React, Python, Streamlit"
+      content="Dani Aldrin, UI/UX Designer, Frontend Developer, Web Development, Portfolio, React, Python, Full Stack Developer, RMKCET"
     />
     <meta name="author" content="Dani Aldrin" />
-    <title>Dani Aldrin | UI/UX Designer + Frontend Developer</title>
+    <title>Dani Aldrin — UI/UX Designer & Frontend Developer</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://danialdrin.github.io/portfolio/" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
 
-    <!-- Google Fonts: Outfit & Inter -->
+    <!-- Preload LCP Profile Image -->
+    <link rel="preload" as="image" href="assets/profile.webp" type="image/webp" fetchpriority="high" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://danialdrin.github.io/portfolio/" />
+    <meta property="og:title" content="Dani Aldrin — UI/UX Designer & Frontend Developer" />
+    <meta
+      property="og:description"
+      content="Computer Science Engineering student building user-focused web applications, AI tools, and full-stack digital products."
+    />
+    <meta property="og:image" content="https://danialdrin.github.io/portfolio/assets/profile.webp" />
+    <meta property="og:site_name" content="Dani Aldrin Developer Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://danialdrin.github.io/portfolio/" />
+    <meta name="twitter:title" content="Dani Aldrin — UI/UX Designer & Frontend Developer" />
+    <meta
+      name="twitter:description"
+      content="Computer Science Engineering student building user-focused web applications, AI tools, and full-stack digital products."
+    />
+    <meta name="twitter:image" content="https://danialdrin.github.io/portfolio/assets/profile.webp" />
+
+    <!-- Google Fonts: Outfit & Inter with display=swap for CLS prevention -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+
+    <!-- JSON-LD Structured Data for Person & ProfilePage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://danialdrin.github.io/portfolio/#person",
+            "name": "Dani Aldrin D",
+            "jobTitle": "UI/UX Designer & Frontend Developer",
+            "description": "Computer Science Engineering student specializing in building user-focused web applications and AI-powered solutions.",
+            "url": "https://danialdrin.github.io/portfolio/",
+            "image": "https://danialdrin.github.io/portfolio/assets/profile.webp",
+            "sameAs": [
+              "https://github.com/danialdrin",
+              "https://www.linkedin.com/in/dani-aldrin-m13/",
+              "https://leetcode.com/u/dani-aldrin-m13/",
+              "https://www.hackerrank.com/profile/danialdrin_d"
+            ],
+            "alumniOf": {
+              "@type": "EducationalOrganization",
+              "name": "RMK College of Engineering and Technology",
+              "sameAs": "https://www.rmkcet.ac.in/"
+            },
+            "knowsAbout": [
+              "UI/UX Design",
+              "Frontend Development",
+              "React.js",
+              "Python",
+              "Generative AI",
+              "Full Stack Web Development"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://danialdrin.github.io/portfolio/#website",
+            "url": "https://danialdrin.github.io/portfolio/",
+            "name": "Dani Aldrin Portfolio",
+            "description": "Personal developer portfolio of Dani Aldrin featuring full-stack case studies, AI tools, and creative web experiments.",
+            "publisher": {
+              "@id": "https://danialdrin.github.io/portfolio/#person"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": "https://danialdrin.github.io/portfolio/#webpage",
+            "url": "https://danialdrin.github.io/portfolio/",
+            "name": "Dani Aldrin — UI/UX Designer & Frontend Developer",
+            "isPartOf": {
+              "@id": "https://danialdrin.github.io/portfolio/#website"
+            },
+            "mainEntity": {
+              "@id": "https://danialdrin.github.io/portfolio/#person"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
 
   <body>

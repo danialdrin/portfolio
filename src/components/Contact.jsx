@@ -61,7 +61,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-detail-text">
                   <span>Email</span>
-                  <a href="mailto:danialdrin.d@gmail.com">danialdrin.d@gmail.com</a>
+                  <a href="mailto:danialdrin.d@gmail.com" aria-label="Send email to Dani Aldrin">danialdrin.d@gmail.com</a>
                 </div>
               </div>
 
@@ -73,7 +73,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-detail-text">
                   <span>Phone</span>
-                  <a href="tel:+918122904068">+91 8122904068</a>
+                  <a href="tel:+918122904068" aria-label="Call Dani Aldrin">+91 8122904068</a>
                 </div>
               </div>
 

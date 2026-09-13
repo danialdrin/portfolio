@@ -1,10 +1,48 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="64" height="64" rx="12" fill="url(#gradient)"/>
-  <text x="32" y="44" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">DA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <defs>
-    <linearGradient id="gradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#667eea"/>
-      <stop offset="100%" stop-color="#764ba2"/>
+    <!-- Background Dark Canvas Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120F17" />
+      <stop offset="100%" stop-color="#0a0b0d" />
     </linearGradient>
+
+    <!-- Accent Amber & Purple Linear Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#5227FF" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Radial Ambient Glow Filter -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
   </defs>
+
+  <!-- Base Squircle Container -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2.5" />
+
+  <!-- Soft Ambient Center Glow -->
+  <circle cx="32" cy="32" r="24" fill="url(#glow)" />
+
+  <!-- Monogram Symbol "DA" -->
+  <g fill="none" stroke="url(#accentGrad)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Letter 'D' -->
+    <path d="M16 20 H 26 C 33 20 37 25 37 32 C 37 39 33 44 26 44 H 16 V 20 Z" stroke-width="4.5" />
+    
+    <!-- Letter 'A' -->
+    <path d="M42 44 L 48 20 L 54 44" stroke-width="4.5" />
+    <path d="M44.5 35 H 51.5" stroke-width="4" />
+  </g>
+
+  <!-- Glowing Amber Accent Dot -->
+  <circle cx="48" cy="20" r="2.5" fill="#f59e0b" />
 </svg>

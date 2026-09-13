@@ -73,8 +73,10 @@ export default function Projects({ projects }) {
                     <div className="project-media" style={{ borderRadius: 'var(--radius-md)', overflow: 'hidden', height: '210px' }}>
                       <img
                         src={project.image}
-                        alt={project.title}
+                        alt={`Screenshot of ${project.title} - ${project.tagline || 'Project preview'}`}
                         loading="lazy"
+                        width="400"
+                        height="210"
                         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                       />
                     </div>
@@ -114,6 +116,7 @@ export default function Projects({ projects }) {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="project-link-btn"
+                            aria-label={`View ${project.title} GitHub repository`}
                             onClick={(e) => e.stopPropagation()}
                           >
                             <span>Repository</span>
@@ -129,6 +132,7 @@ export default function Projects({ projects }) {
                             rel="noopener noreferrer"
                             className="project-link-btn"
                             style={{ color: 'var(--accent-amber)' }}
+                            aria-label={`View ${project.title} live demo website`}
                             onClick={(e) => e.stopPropagation()}
                           >
                             <span>Live Demo</span>

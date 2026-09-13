@@ -15,7 +15,7 @@ export default function About() {
           {/* LEFT COLUMN: Interactive TiltedCard Hero Image */}
           <div className="about-hero-image-wrapper">
             <TiltedCard
-              imageSrc="assets/profile.png"
+              imageSrc="assets/profile.webp"
               altText="Dani Aldrin D - Full Stack Developer Profile"
               captionText="Dani Aldrin D"
               containerHeight="100%"
@@ -65,7 +65,7 @@ export default function About() {
               >
                 <div className="info-card">
                   <div className="info-card-body">
-                    <h4>Education</h4>
+                    <h3>Education</h3>
                     <p>B.E. Computer Science Engineering</p>
                     <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
                       RMK College of Engineering and Technology | Tiruvallur • 2023–2027
@@ -88,7 +88,7 @@ export default function About() {
               >
                 <div className="info-card">
                   <div className="info-card-body">
-                    <h4>Leadership & Roles</h4>
+                    <h3>Leadership & Roles</h3>
                     <p>Team Captain (UpTo Skills) • CSI Executive Member</p>
                     <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
                       Coordinated UI/UX teams & organized TechDays events
@@ -110,7 +110,7 @@ export default function About() {
               >
                 <div className="info-card">
                   <div className="info-card-body">
-                    <h4>Focus Areas</h4>
+                    <h3>Focus Areas</h3>
                     <p>Full Stack Development • AI-Powered Web Applications • UI/UX Design</p>
                   </div>
                 </div>
